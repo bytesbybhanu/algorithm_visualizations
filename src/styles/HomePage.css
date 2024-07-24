@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Apply styles to the canvas element */
+
+.canvas-container {
+  position: relative;
+  background-color: black;
+  height:775px;
+  
+}
+
+.canvas {
+  position: absolute;
+  top: -35%;
+  left: 0;
+}
+
+
+@media (max-width: 768px) {
+  .canvas-container {
+    position: relative;
+    background-color: black;
+    height:2000px;
+  }
+
+  .canvas {
+    position: absolute;
+    top: -85%;
+    left: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.bar{
+    padding-top: 7px;
+    font-family: sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    color:white;
+    width:40px;
+    margin-left:6px;
+    background-color:#2a3fa8;
+}
+.bar-sorted{
+    background-color:darkred;
+    
+}
+body{
+    background-color: rgb(246, 204, 162);
+}
+.bar-swap{
+    background-color:#bdbb1c;
+}
+.bar-min{
+    background-color: red;
+}

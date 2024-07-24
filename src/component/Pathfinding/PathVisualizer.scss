@@ -1,0 +1,25 @@
+$mobile: 320px;
+$tablet: 481px;
+$laptop: 749px;
+
+.DarkMode {
+  .grid {
+    background-color: #151a35;
+  }
+}
+
+body{
+  background-color: rgb(246, 204, 162);
+}
+
+.grid {
+  @media only screen and (min-width: $mobile) {
+    margin: 20px;
+  }
+  @media only screen and (min-width: $tablet) {
+    margin: 42px;
+  }
+  @media only screen and (min-width: $laptop) {
+    margin: 70px;
+  }
+}

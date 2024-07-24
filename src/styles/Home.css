@@ -1,0 +1,100 @@
+/* Home.css */
+
+.container {
+    text-align: center; /* Center all content */
+    padding: 10px;
+    color: #333;
+  }
+  
+  .logo img {
+    max-width: 300px; /* Control the size of the logo */
+    margin-bottom: -220px; /* Space between logo and the algo images */
+  }
+  
+  .algo-images {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Align items in the center */
+  }
+  
+  .algo-images img {
+    max-width: 350px; /* Control size of these images */
+    margin-bottom: -260px; /* 10px space between images */
+  }
+  
+  .algo-images img:last-child {
+    margin-bottom: 0; /* Remove margin from the last image in the algo-images div */
+  }
+  
+  .algo-types {
+    margin-top: 80px; /* Space above the visualization types */
+  }
+  
+  .algo-types img {
+    max-width: 160px;  
+    margin:  20px; /* Space between each visualization type image */
+    vertical-align: middle;
+    border: 4px solid rgb(0, 255, 102);
+
+  }
+  
+  .algo-types img:first-child {
+    margin-left: 0; /* No extra left margin for the first type image */
+  }
+  
+  .algo-types img:last-child {
+    margin-right: 0; /* No extra right margin for the last type image */
+  }
+  
+  .line {
+    width: 50%; /* Set the width of the line */
+    margin: 20px auto; /* Center the line horizontally and add margin */
+    border: none; /* Remove the default border */
+    border-top: 2px solid #333; /* Add a solid black border on top */
+  }
+  
+  .headline {
+    color: rgb(210, 180, 125);
+    font-size: 24px; /* Set the font size of the headline */
+    margin-top: 30px; /* Add space above the headline */
+  }
+  
+
+  
+@media (max-width: 768px) {
+
+   
+  .logo img {
+    max-width: 200px; /* Control the size of the logo */
+    margin-top: 220px; /* Space between logo and the algo images */
+  }
+
+  .algo-images {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Align items in the center */
+  }
+  
+  .algo-images img {
+    max-width: 350px; /* Control size of these images */
+    margin-top: 100px;
+  }
+  
+  .algo-images img:last-child {
+    margin-bottom: 0; /* Remove margin from the last image in the algo-images div */
+  }
+  
+  .algo-types {
+    margin-top: 100px; /* Space above the visualization types */
+  }
+  
+  .algo-types img {
+    max-width: 160px;  
+    margin:  20px; /* Space between each visualization type image */
+    vertical-align: middle;
+    border: 4px solid rgb(0, 255, 102);
+
+  }
+
+  
+}
